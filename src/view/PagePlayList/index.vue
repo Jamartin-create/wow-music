@@ -46,7 +46,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "@vue/reactivity";
+import { computed } from "vue";
 import { watch, reactive, ref } from "vue";
 import { useRoute } from "vue-router";
 import { PlayListPageParams } from "../../api/interface/music";

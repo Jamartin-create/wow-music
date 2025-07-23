@@ -78,7 +78,7 @@ const createAxiosInstance = (config?: AxiosRequestConfig): AxiosInstance => {
 
     //请求拦截器
     instance.interceptors.request.use(
-        requestInceptorsSuccess,
+        requestInceptorsSuccess as any,
         requestInceptorsError
     )
 
